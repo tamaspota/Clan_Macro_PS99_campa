@@ -34,3 +34,6 @@ No passwords, Roblox cookies, screenshots or files are sent. While offline the d
 - Windows 10/11 x64 only.
 - Never share your access code or your Discord login with anyone.
 - Use at your own risk. Macros are automation aids and can misbehave if the game UI changes; re-calibrate image slots after game updates.
+
+## v1.0.24 (BETA)
+Updates come only from this public release channel (same for everyone) and Install/Update now closes and restarts the Hub automatically. If you started the Hub from an old Drive launcher, download `PS99MacroHub-Setup.exe` from the latest release once and use its desktop shortcut.
