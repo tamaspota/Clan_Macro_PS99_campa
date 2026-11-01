@@ -5,7 +5,7 @@ It was originally built for the **V1LN** clan. Access is currently granted to th
 
 > **BETA ΓÇô not yet fully tested.** Expect bugs; report them to campa.
 
-This repository is the official distribution channel. **The only file you need is `PS99MacroHub-Setup.exe`** from the latest release. It is the only file in each release; it contains the signed update package and the Hub verifies it before installing.
+This repository is the official distribution channel. **The only file you need is `PS99MacroHub-Setup.exe`** from the latest release. It contains the signed update package, and the Hub verifies it before installing.
 
 ## Install
 
@@ -42,6 +42,8 @@ Updates come only from this public release channel (same for everyone) and Insta
 
 ## v1.0.25 (BETA)
 The Hub needs an internet connection to start (startup log incl. IP and coarse location, see Usage data). Discord outages get a short Owner-set grace period. Download PS99MacroHub-Setup.exe from the latest release.
+## v1.0.26 (BETA)
+The main task list shows only HG Fast hatch (zone 5) and HG Match games; both are added automatically. Only PS99MacroHub-Setup.exe needs to be downloaded.
 
 ## History
 The project started about a year ago in the V1LN clan with an AHK script, after my internet kept dropping and I needed reliable recovery. I then built the V1LN version so the whole clan could use it. After a merge I joined the Lynx clan, and on 2026-10-25 I was put on LOA there. On 2026-11-01 I joined LSQ, so the Hub is available for V1LN, LSQ and INXY, and only for members of those three Discord servers.
