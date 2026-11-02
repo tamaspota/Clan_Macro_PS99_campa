@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Terms of Service"
+permalink: /legal/terms/
+---
+
 # PS99 Macro Hub / PS99 Macro hub-dc — Terms of Service
 
 > **DRAFT — NOT EFFECTIVE.** Owner review is required before publishing this as the Discord application's Terms of Service or supplying its URL to the Discord Developer Portal. This document was prepared from the public release README and Discord application context on 2026-11-03. Bracketed items are unresolved.
