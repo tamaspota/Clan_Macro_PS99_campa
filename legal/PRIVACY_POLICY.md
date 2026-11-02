@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Privacy Policy"
+permalink: /legal/privacy/
+---
+
 # PS99 Macro Hub / Discord companion — Privacy Policy
 
 > **DRAFT — NOT EFFECTIVE OR READY FOR DISCORD VERIFICATION.** The operator must validate actual deployed code, data handling, lawful bases, contacts, and requests before publishing.
