@@ -5,12 +5,14 @@ It was originally built for the **V1LN** clan. Access is currently granted to th
 
 > **BETA ΓÇô not yet fully tested.** Expect bugs; report them to campa.
 
-This repository is the official distribution channel. **The only file you need is `PS99MacroHub-Setup.exe`** from the latest release. It contains the signed update package, and the Hub verifies it before installing.
+This repository is the official distribution channel. **[Download the latest PS99MacroHub-Setup.exe](https://github.com/tamaspota/Clan_Macro_PS99_campa/releases/latest/download/PS99MacroHub-Setup.exe)** — this is the only installer you need. It contains the signed update package, and the Hub verifies it before installing.
+
+GitHub automatically shows **Source code (zip)** and **Source code (tar.gz)** on its Releases page. These are repository snapshots, **not installers**; you do not need to download them.
 
 ## Install
 
 1. Install the **.NET 8 Desktop Runtime (x64)** from Microsoft (dotnet.microsoft.com → .NET 8.0 → Desktop Runtime), if you don't have it yet.
-2. Open **Releases** (right side of this page), pick the latest version and download **`PS99MacroHub-Setup.exe`**.
+2. Download **[PS99MacroHub-Setup.exe](https://github.com/tamaspota/Clan_Macro_PS99_campa/releases/latest/download/PS99MacroHub-Setup.exe)** (direct installer link; the release page is not required).
 3. Right-click `PS99MacroHub-Setup.exe` → **Run as administrator** and follow the installer.
 4. Start **PS99 Macro Hub** and **sign in with Discord**. You must be a member of an authorised clan server.
 5. Ask **campa** for your personal **access code**, paste it in the Hub and press **Activate**. Each code works only for your Discord account and is valid for **24 hours**; ask for a new one when it expires.
