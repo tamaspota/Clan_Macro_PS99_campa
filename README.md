@@ -9,11 +9,13 @@ This repository is the official distribution channel. **[Download the latest PS9
 
 GitHub automatically shows **Source code (zip)** and **Source code (tar.gz)** on its Releases page. These are repository snapshots, **not installers**; you do not need to download them.
 
-## Current signed release: v1.0.54 (2026-11-05)
+## Current signed release: v1.0.55 (2026-11-06)
 
-The signed **v1.0.54** update is now available: [release and Setup installer](https://github.com/tamaspota/Clan_Macro_PS99_campa/releases/tag/v1.0.54). Existing users can use the Hub update bell → **Check now** → **Install signed update**. The release keeps the existing member/ALT/task workflows and adds an **Owner-only Discord Publishing settings table** to configure clan names, Guild IDs, channels and approved Discord role IDs without editing code. The new **Navo Clan & Community** Discord target is distinct from the older NAVO Members guild.
+The **signed v1.0.55** package is available: [GitHub release and Setup installer](https://github.com/tamaspota/Clan_Macro_PS99_campa/releases/tag/v1.0.55). Existing users can open the Hub update bell → **Check now** → **Install signed update**. Published source: `f6806e42b4fa34a02fd61c890da06a5c0d7e92d0`; validated Windows Release tests: **2680/2680 PASS**. The trusted Owner publisher downloaded and SHA-256 checked the public Setup after signing.
 
-**Important:** publishing v1.0.54 does not automatically install/restart the separate Owner-host AccessBot or enable a newly added clan's /access or Post switches. Owner-managed bot rollout and live access checks remain separate. Remote Staff publishing remains disabled until a trusted authorization relay is available. Halloween Games automatic candy-repeat/bonus task changes are not part of the signed live update.
+Changes include safer Owner-only Discord Publishing table editing (exact-row delete confirmation, undo and manual ordering), Usage Log endpoint/tab fixes, and guarded Halloween Games Zone 1 teleport handling when the menu is already open. These do **not** automatically change saved custom tasks or guarantee all Halloween queue/egg routes are calibrated.
+
+**Separate Owner validation is still required:** the AccessBot binary is built but **not deployed** by the public installer; new guild `/access` authorization and no-ping Discord announcements must be tested by the Owner. The Staff remote relay remains disabled. The Halloween Fast Hatch egg interaction still requires a valid calibrated `hg_egg_e_prompt` target and live-gameplay verification. No unattended rewards/bonus task is promoted by this release.
 
 ## Install
 
