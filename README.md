@@ -1,21 +1,26 @@
 # PS99 Macro Hub
 
 PS99 Macro Hub is a Windows desktop macro hub for Pet Simulator 99 (Roblox), **made by campa**.
-It was originally built for the **V1LN** clan. Access is currently granted to the **LSQ** clan, and possibly the **INXY** clan.
+Access is currently granted to members of the **AO** and **NAVO** clan Discord servers.
 
-> **BETA ΓÇô not yet fully tested.** Expect bugs; report them to campa.
+> **BETA – not yet fully tested.** Expect bugs; report them to campa.
 
 This repository is the official distribution channel. **[Download the latest PS99MacroHub-Setup.exe](https://github.com/tamaspota/Clan_Macro_PS99_campa/releases/latest/download/PS99MacroHub-Setup.exe)** — this is the only installer you need. It contains the signed update package, and the Hub verifies it before installing.
 
 GitHub automatically shows **Source code (zip)** and **Source code (tar.gz)** on its Releases page. These are repository snapshots, **not installers**; you do not need to download them.
 
-## Current signed release: v1.0.55 (2026-11-06)
+## Current signed release: v1.0.58 (2026-11-13)
 
-The **signed v1.0.55** package is available: [GitHub release and Setup installer](https://github.com/tamaspota/Clan_Macro_PS99_campa/releases/tag/v1.0.55). Existing users can open the Hub update bell → **Check now** → **Install signed update**. Published source: `f6806e42b4fa34a02fd61c890da06a5c0d7e92d0`; validated Windows Release tests: **2680/2680 PASS**. The trusted Owner publisher downloaded and SHA-256 checked the public Setup after signing.
+The **signed v1.0.58** package is available: [GitHub release and Setup installer](https://github.com/tamaspota/Clan_Macro_PS99_campa/releases/tag/v1.0.58). Existing users can open the Hub update bell → **Check now** → **Install signed update**.
 
-Changes include safer Owner-only Discord Publishing table editing (exact-row delete confirmation, undo and manual ordering), Usage Log endpoint/tab fixes, and guarded Halloween Games Zone 1 teleport handling when the menu is already open. These do **not** automatically change saved custom tasks or guarantee all Halloween queue/egg routes are calibrated.
+What's new in v1.0.58:
 
-**Separate Owner validation is still required:** the AccessBot binary is built but **not deployed** by the public installer; new guild `/access` authorization and no-ping Discord announcements must be tested by the Owner. The Staff remote relay remains disabled. The Halloween Fast Hatch egg interaction still requires a valid calibrated `hg_egg_e_prompt` target and live-gameplay verification. No unattended rewards/bonus task is promoted by this release.
+- **U101 (Masquerade Games): return to #8 Thorn Spire.** The guided Ultimate return goal now offers **#8 Thorn Spire (reset via #1)**. The route uses current images only (Event proof → Teleport → #1 → #1 arrival → Teleport → #8 → #8 arrival). It uses no fixed coordinates or movement and never presses Revive.
+- **F6 / reconnect.** With the #8 goal saved and automatic recovery enabled for the task, F6 and a Roblox disconnect re-enter the current Event, go back to #8, check the arrival and resume the task once.
+- **Lobby landing.** If an armed U101 task finds itself in the main-world lobby, the Hub runs the same bounded recovery (at most 2 per 30 minutes). If the evidence is unclear, it stops safely.
+- Includes v1.0.57: ALT Event startup no longer waits up to 2 minutes on an unrecognised Teleport menu.
+
+Calibrate the current U101 images and activate Event startup before use. Automatic recovery is opt-in per task. These features are not yet confirmed in live gameplay; please report problems.
 
 ## Install
 
@@ -56,7 +61,7 @@ The Hub needs an internet connection to start (startup log incl. IP and coarse l
 The main task list shows only HG Fast hatch (zone 5) and HG Match games; both are added automatically. Only PS99MacroHub-Setup.exe needs to be downloaded.
 
 ## History
-The project started about a year ago in the V1LN clan with an AHK script, after my internet kept dropping and I needed reliable recovery. I then built the V1LN version so the whole clan could use it. After a merge I joined the Lynx clan, and on 2026-10-25 I was put on LOA there. On 2026-11-01 I joined LSQ, so the Hub is available for V1LN, LSQ and INXY, and only for members of those three Discord servers.
+The project started about a year ago in the V1LN clan with an AHK script, after my internet kept dropping and I needed reliable recovery. I then built the V1LN version so the whole clan could use it. After a merge I joined the Lynx clan, and on 2026-10-25 I was put on LOA there. The Hub is currently available only to members of the authorised AO and NAVO Discord servers.
 
 ## Support
 If you have a problem, DM campa on Discord. If you can't DM me, you wouldn't get access anyway.
